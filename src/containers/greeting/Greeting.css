@@ -86,6 +86,11 @@
   .greeting-main {
     display: block;
   }
+  .social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .portfolio-repo-btn-div {
     width: 100%;
