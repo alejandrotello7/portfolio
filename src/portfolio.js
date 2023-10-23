@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Alejandro Tello Flores",
   subTitle:
-    "Software Engineer focused on Cloud Infrastructure and Automation. Experience developing full stack applications, managing Cloud Infrastructures, deploying Kubernetes Clusters and building pipelines with DevOps practices.",
+    "Software Engineer focused on Cloud Infrastructure, Automation and DevOps",
   resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -364,43 +364,34 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "CETYS University",
-      subtitle: "BSc. Computer Science and Electrical Engineering",
-      logo_path: "cetyscircular.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2012 - 2016",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
       title: "TU Dresden",
       subtitle: "MSc. in Computer Science",
+      location: "Dresden, Germany",
       logo_path: "tudresden.png",
-      alt_name: "Indiana University Bloomington",
+      alt_name: "TU Dresden",
       duration: "2019 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      descriptions: [],
+      website_link: "https://tu-dresden.de/",
+    },
+    {
+      title: "CETYS University",
+      subtitle: "BSc. Computer Science and Electrical Engineering",
+      location: "Mexicali, Mexico",
+      logo_path: "cetyscircular.png",
+      alt_name: "CETYS University ",
+      duration: "2012 - 2016",
+      descriptions: [],
+      website_link: "https://www.cetys.mx/en/",
     },
     {
       title: "City University of Seattle",
       subtitle: "BA. in Management",
+      location: "Seattle, USA",
       logo_path: "cityu.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2014 - 2016",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      alt_name: "City University of Seattle",
+      duration: "2012 - 2016",
+      descriptions: [],
+      website_link: "https://www.cityu.edu/",
     },
   ],
 };
