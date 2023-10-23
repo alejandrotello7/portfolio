@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class CICDImg extends Component {
   render() {
-    const theme = this.props.theme;
+    // const theme = this.props.theme;
     return (
       <svg
         version="1.1"
