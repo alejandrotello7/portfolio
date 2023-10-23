@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -79,8 +79,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using Vue and React.",
-        "⚡ Building static websites with Gatsby.",
+        "⚡ Building responsive website front end using Vue, React and Gatsby.",
         "⚡ Creating application backend in Flask, FastAPI, Go and Spring Boot",
         "⚡ Developing mobile multi-platform applications using Flutter",
       ],
@@ -137,6 +136,20 @@ const skills = {
           },
         },
         {
+          skillName: "Go",
+          fontAwesomeClassname: "devicon:go",
+          style: {
+            color: "#663399",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "bxl:spring-boot",
+          style: {
+            color: "#4e9933",
+          },
+        },
+        {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
@@ -146,22 +159,15 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Cloud Engineering and Infrastructure",
+      fileName: "CloudDevImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experience managing infrastructure and services on AWS and Azure.",
+        "⚡ Develop, maintain and deploy Kubernetes cluster through Helm charts in Azure (AKS) and AWS (EKS). ",
+        "⚡ Spin infrastructure-as-code (IaC) services such as VM Instances and Storage Claims with Terraform and Cloud Formation.",
+        "⚡ Deploy static websites through Azure Storage and AWS Amplify Hosting  ",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -177,8 +183,8 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Helm",
+          fontAwesomeClassname: "logos:helm",
           style: {
             color: "#FFCA28",
           },
@@ -188,13 +194,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -211,41 +210,94 @@ const skills = {
             color: "#326CE5",
           },
         },
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "devicon:terraform",
+          style: {
+            color: "#326CE5",
+          },
+        },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "CI/CD Pipeline development",
+      fileName: "CICDImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Develop the complete lifecycle of CI/CD Pipelines in Azure DevOps and Jenkins",
+        "⚡ Develop build and release pipelines, deployment to container registries,  ",
+        "⚡ Develop testing environments with Jest/Cypress, and deployment to different environments (testing, staging and production) ",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Azure DevOps",
+          fontAwesomeClassname: "devicon:azuredevops",
           style: {
             color: "#FF2BC2",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Jenkins",
+          fontAwesomeClassname: "devicon:jenkins",
           style: {
             color: "#F24E1E",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Pipeline",
+          fontAwesomeClassname: "file-icons:azure-pipelines",
           style: {
             color: "#FF7C00",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Jest",
+          fontAwesomeClassname: "logos:jest",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Cypress",
+          fontAwesomeClassname: "logos:cypress",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    {
+      title: "Confidential Computing",
+      fileName: "EnclaveImg",
+      skills: [
+        "⚡ Experience developing and deploying Dockerize applications in Confidential Computing environments such as Nitro Enclaves (AWS)",
+        "⚡ Technical expertise developing in Nitro Enclaves (AWS) SDK to develop enclave applications",
+        "⚡ Worked with TLS connections, gRPCS servers, sock/vsock communication, data encryption and decryption",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Open SSL",
+          fontAwesomeClassname: "simple-icons:openssl",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "gRPC",
+          fontAwesomeClassname: "logos:grpc",
           style: {
             color: "#000000",
           },
@@ -258,65 +310,65 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
+    //   },
+    //   profileLink: "https://leetcode.com/layman_brother/",
+    // },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/layman_brother",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "http://codeforces.com/profile/layman_brother",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
+      title: "CETYS University",
+      subtitle: "BSc. Computer Science and Electrical Engineering",
+      logo_path: "cetyscircular.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      duration: "2012 - 2016",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
@@ -325,11 +377,11 @@ const degrees = {
       website_link: "http://iiitk.ac.in",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
+      title: "TU Dresden",
+      subtitle: "MSc. in Computer Science",
+      logo_path: "tudresden.png",
       alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      duration: "2019 - 2023",
       descriptions: [
         "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
         "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
@@ -667,7 +719,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "atello.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },

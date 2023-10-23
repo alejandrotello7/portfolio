@@ -6,15 +6,22 @@ import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
+import CloudDevImg from "./CloudDevImg";
 import DesignImg from "./DesignImg";
-
+import CICDImg from "./CICDImg";
+import EnclaveImg from "./EnclaveImg";
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
+  if (props.fileName === "CloudDevImg")
+    return <CloudDevImg theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "EnclaveImg")
+    return <EnclaveImg theme={props.theme} />;
+  else if (props.fileName === "CICDImg") return <CICDImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
 }
 
