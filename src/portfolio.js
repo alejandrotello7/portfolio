@@ -389,6 +389,19 @@ const degrees = {
       ],
       website_link: "https://www.indiana.edu/",
     },
+    {
+      title: "City University of Seattle",
+      subtitle: "BA. in Management",
+      logo_path: "cityu.png",
+      alt_name: "Indiana University Bloomington",
+      duration: "2014 - 2016",
+      descriptions: [
+        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
+        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
+        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+      ],
+      website_link: "https://www.indiana.edu/",
+    },
   ],
 };
 
