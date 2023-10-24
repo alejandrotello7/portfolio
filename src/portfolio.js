@@ -23,8 +23,8 @@ const greeting = {
   subTitle:
     "Software Engineer focused on Cloud Infrastructure, Automation and DevOps",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1v703RtQuQ3fFJYEQRoC9Lyuf4zdtGG74/view",
+  portfolio_repository: "https://github.com/alejandrotello7/portfolio",
   githubProfile: "https://github.com/alejandrotello7",
 };
 
@@ -462,7 +462,7 @@ const experience = {
           description: [
             "• Full stack development with React and Java.",
             "• E2E Testing with Cypress and unit testing with Jest.",
-            "• Pipeline development with Github Actions",
+            "• Pipeline development with Github Actions.",
           ],
           color: "#9b1578",
         },
@@ -474,8 +474,8 @@ const experience = {
           duration: "Dec 2016 - Oct 2019",
           location: "Mexicali, Mexico",
           description: [
-            "• Business consultant for IT project implementation",
-            "• Full stack web applications development for Manufacturing Requirements such as KPI and Kanban boards",
+            "• Business consultant for IT projects implementation.",
+            "• Full stack web applications development for Manufacturing Requirements such as KPI and Kanban boards.",
             "• Local department leader with 3 engineers under my team.",
           ],
           color: "#fc1f20",
@@ -489,113 +489,13 @@ const experience = {
           location: "Mexicali, Mexico",
           description: [
             "• Network design, implementation and troubleshooting with ITSM Ticketing System (BMC Remedy).",
-            "• IT Services and devices troubleshooting for over 300 active users ",
+            "• IT Services and devices troubleshooting for over 300 active users. ",
             "• Point of contact for IT vendors suppliers and project implementations.",
           ],
           color: "#fc1f20",
         },
       ],
     },
-    // {
-    //   title: "Internships",
-    //   experiences: [
-    //     {
-    //       title: "Machine Learning Intern",
-    //       company: "TikTok Inc.",
-    //       company_url: "https://www.tiktok.com/en/",
-    //       logo_path: "tiktok_logo.png",
-    //       duration: "May 2022 - Aug 2022",
-    //       location: "San Francisco, USA",
-    //       description:
-    //         "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-    //       color: "#000000",
-    //     },
-    //     {
-    //       title: "Data Science Research Intern",
-    //       company: "Delhivery Pvt. Ltd.",
-    //       company_url: "https://www.delhivery.com/",
-    //       logo_path: "delhivery_logo.png",
-    //       duration: "May 2019 - Sept 2019",
-    //       location: "Gurgaon, Haryana",
-    //       description:
-    //         "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-    //       color: "#ee3c26",
-    //     },
-    //     {
-    //       title: "Data Science Intern",
-    //       company: "Intel Indexer LLC",
-    //       company_url:
-    //         "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-    //       logo_path: "intel_logo.jpg",
-    //       duration: "Nov 2018 - Dec 2018",
-    //       location: "Work From Home",
-    //       description:
-    //         "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-    //       color: "#0071C5",
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Google Explore ML Facilitator",
-    //       company: "Google",
-    //       company_url: "https://about.google/",
-    //       logo_path: "google_logo.png",
-    //       duration: "June 2019 - April 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-    //       color: "#4285F4",
-    //     },
-    //     {
-    //       title: "Microsoft Student Partner",
-    //       company: "Microsoft",
-    //       company_url: "https://www.microsoft.com/",
-    //       logo_path: "microsoft_logo.png",
-    //       duration: "Aug 2019 - May 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "Mozilla Campus Captain",
-    //       company: "Mozilla",
-    //       company_url: "https://www.mozilla.org/",
-    //       logo_path: "mozilla_logo.png",
-    //       duration: "Oct 2019 - May 2020",
-    //       location: "Kurnool, Andhra Pradesh",
-    //       description:
-    //         "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-    //       color: "#000000",
-    //     },
-    //     {
-    //       title: "Developer Students Club Member",
-    //       company: "DSC IIITDM Kurnool",
-    //       company_url:
-    //         "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-    //       logo_path: "dsc_logo.png",
-    //       duration: "Jan 2018 - May 2020",
-    //       location: "Kurnool, Andhra Pradesh",
-    //       description:
-    //         "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-    //       color: "#0C9D58",
-    //     },
-    //     {
-    //       title: "Developer Program Member",
-    //       company: "Github",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github_logo.png",
-    //       duration: "July 2019 - PRESENT",
-    //       location: "Work From Home",
-    //       description:
-    //         "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-    //       color: "#181717",
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -603,60 +503,18 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "The projects I've been working demonstrate the skills that I posses as a full-stack software, Cloud and DevOps engineer.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
+  title: "",
+  description: "",
+  avatar_image_path: "",
 };
 
 const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-  ],
+  data: [],
 };
 
 // Contact Page
@@ -665,26 +523,24 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "atello.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "The fastest way to reach me is thorugh email. I'll get back to you in less than 24 hours!",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
+    title: "",
+    subtitle: "",
+    link: "",
+    avatar_image_path: "",
   },
   addressSection: {
-    title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    title: "",
+    subtitle: "",
+    locality: "",
+    country: "",
+    region: "",
+    postalCode: "",
+    streetAddress: "",
+    avatar_image_path: "",
+    location_map_link: "",
   },
   phoneSection: {
     title: "",
