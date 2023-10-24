@@ -397,12 +397,37 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [],
+  certifications: [
+    {
+      title: "Spanish",
+      subtitle: "Native",
+      logo_path: "",
+      certificate_link: "",
+      alt_name: "",
+      color_code: "#8C151599",
+    },
+    {
+      title: "English",
+      subtitle: "Native",
+      logo_path: "",
+      certificate_link: "",
+      alt_name: "",
+      color_code: "#8C151599",
+    },
+    {
+      title: "German",
+      subtitle: "B1/B2",
+      logo_path: "",
+      certificate_link: "",
+      alt_name: "",
+      color_code: "#8C151599",
+    },
+  ],
 };
 
 // Experience Page
 const experience = {
-  title: "Experience",
+  title: "Professional experience",
   subtitle: "",
   description:
     "I  have over 5 years of experience working as software, cloud and DevOps Engineer with multinational companies such as Bosch and SAP, as well as, consulting firms such as LBD.",
@@ -419,8 +444,10 @@ const experience = {
           logo_path: "lbd_logo.png",
           duration: "Dec 2021 - Dec 2022",
           location: "Berlin, Germany",
-          description:
+          description: [
             "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "test",
+          ],
           color: "#0879bf",
         },
         {
@@ -430,8 +457,10 @@ const experience = {
           logo_path: "sap_logo.png",
           duration: "May 2020 - May 2021",
           location: "Dresden, Germany",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+          description: [
+            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "test",
+          ],
           color: "#9b1578",
         },
         {
@@ -441,8 +470,7 @@ const experience = {
           logo_path: "bosch_logo.png",
           duration: "Dec 2016 - Oct 2019",
           location: "Mexicali, Mexico",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          description: ["test", "test"],
           color: "#fc1f20",
         },
         {
@@ -452,8 +480,7 @@ const experience = {
           logo_path: "bosch_logo.png",
           duration: "Jul 2015 - Nov 2016",
           location: "Mexicali, Mexico",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+          description: ["test", "test"],
           color: "#fc1f20",
         },
       ],

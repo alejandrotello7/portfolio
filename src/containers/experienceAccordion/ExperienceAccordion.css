@@ -4,6 +4,7 @@
 
 .accord-panel {
   font-family: "Google Sans Regular";
+  width: 100%; /* Set width to 100% to occupy the entire screen */
 }
 
 @media (max-width: 768px) {
