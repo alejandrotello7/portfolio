@@ -36,7 +36,7 @@ class ExperienceCard extends Component {
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: 190,
+                height: 320,
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
@@ -46,7 +46,7 @@ class ExperienceCard extends Component {
           )}
         </div>
         <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}
@@ -106,7 +106,7 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description">
+                <div className="">
                   {experience["description"].map((description, idx) => (
                     <p key={idx} style={{ color: theme.text }}>
                       {description}
