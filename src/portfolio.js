@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "Software Engineer focused on Cloud Infrastructure, Automation and DevOps",
   resumeLink:
-    "https://drive.google.com/file/d/1v703RtQuQ3fFJYEQRoC9Lyuf4zdtGG74/view",
+    "https://drive.google.com/file/d/1b0ingHK0viiJZ3bF1QllqEdJ83BBD4zD/view?usp=sharing",
   portfolio_repository: "https://github.com/alejandrotello7/portfolio",
   githubProfile: "https://github.com/alejandrotello7",
 };
