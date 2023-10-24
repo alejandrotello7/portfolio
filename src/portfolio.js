@@ -523,7 +523,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "atello.png",
     description:
-      "The fastest way to reach me is thorugh email. I'll get back to you in less than 24 hours!",
+      "The fastest way to reach me is through email. I'll get back to you in less than 24 hours!",
   },
   blogSection: {
     title: "",
