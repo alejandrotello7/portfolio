@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Alejandro Tello Flores",
   subTitle:
-    "Software Engineer focused on Cloud Infrastructure, Automation and DevOps",
+    "Software Engineer focused on Cloud Infrastructure, Automation, DevOps and GitOps",
   resumeLink:
     "https://drive.google.com/file/d/1b0ingHK0viiJZ3bF1QllqEdJ83BBD4zD/view?usp=sharing",
   portfolio_repository: "https://github.com/alejandrotello7/portfolio",
