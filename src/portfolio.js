@@ -438,6 +438,21 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "DevOps",
+          company: "diva-e GmbH",
+          company_url: "https://www.diva-e.com/en/",
+          logo_path: "divae_logo_circular.png",
+          duration: "Jan 2024 - current",
+          location: "Leipzig , Germany",
+          description: [
+            "• Full stack development with Vue/React and Flask/FastAPI.",
+            "• Cloud infrastructure design and maintenance with Azure.",
+            "• Develop, maintain and deploy Kubernetes cluster (AKS) with Helm and dockerization of applications.",
+            "• CI/CD pipeline design and deployment in Azure DevOps. ",
+          ],
+          color: "#0879bf",
+        },
+        {
           title: "Software Engineer  - Cloud Infrastructure",
           company: "LBD Beratung",
           company_url: "https://www.lbd.de/",
