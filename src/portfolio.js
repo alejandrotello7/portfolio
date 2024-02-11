@@ -430,7 +430,7 @@ const experience = {
   title: "Professional experience",
   subtitle: "",
   description:
-    "I  have over 5 years of experience working as software, cloud and DevOps Engineer with multinational companies such as Bosch and SAP, as well as, consulting firms such as LBD.",
+    "I  have over 5 years of experience working as software, cloud and DevOps Engineer with multinational companies such as Bosch and SAP, as well as, consulting firms such as LBD and diva-e.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -438,17 +438,17 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "DevOps",
+          title: "DevOps Engineer",
           company: "diva-e GmbH",
           company_url: "https://www.diva-e.com/en/",
           logo_path: "divae_logo_circular.png",
           duration: "Jan 2024 - current",
           location: "Leipzig , Germany",
           description: [
-            "• Full stack development with Vue/React and Flask/FastAPI.",
-            "• Cloud infrastructure design and maintenance with Azure.",
-            "• Develop, maintain and deploy Kubernetes cluster (AKS) with Helm and dockerization of applications.",
-            "• CI/CD pipeline design and deployment in Azure DevOps. ",
+            "• Develop infrastructure pipelines with Gitlab CI/CD.",
+            "• Provision infrastructure with IaC tools such as Terraform and Ansible.",
+            "• Develop and support client's cloud infrastructure in AWS and Azure.",
+            "• Develop and deploy kubernetes clusters, as well as, dockerization of applications. ",
           ],
           color: "#0879bf",
         },
